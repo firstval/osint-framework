@@ -74,18 +74,6 @@ class shodanSearch(Module):
         infos = ("SERVICES", services)
         TABLE_DATA.append(infos)    
       
-        # raw_json = json.dumps(
-        #     ipinfo,
-        #     sort_keys=True,
-        #     indent=4,
-        #     separators=(',', ': ')
-        # )
-        # colorful = highlight(
-        #     raw_json,
-        #     lexer=lexers.JsonLexer(),
-        #     formatter=formatters.TerminalFormatter(),
-        # )
-        # print(colorful)
 
         table = SingleTable(TABLE_DATA, "SHODAN")
         print("\n"+table.table)
