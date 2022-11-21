@@ -39,7 +39,6 @@ class GeoBluetooth(Module):
         r = requests.get(btURL,headers=authHeaders)
         rep = r.json()
 
-        # print(self._debug(rep))
 
         btInfo = []
         btLocation = []

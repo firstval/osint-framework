@@ -49,7 +49,6 @@ class GeoWifi(Module):
             print("[-] Too many requests, try again later or have a new API key")
             return 
 
-        # self._debug(r.json())
 
         tblDetails = []
         rep = r.json()

@@ -20,7 +20,6 @@ class virusTotalUrlScan(Module):
 
     def run(self):
         TABLE_DATA = []
-        # ROOT_DIR = os.path.abspath(os.curdir)
         VT_API = os.getenv('VT_API')
         if(VT_API == ""):
             print(".env VT_API are empty")

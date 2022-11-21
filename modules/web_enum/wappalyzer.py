@@ -3,7 +3,6 @@ from terminaltables import SingleTable
 from Wappalyzer import Wappalyzer, WebPage
 
 class wappalyzer(Module):
-    # Command.set_style("module")
     """ This module find Web Application Technology Stack 
     Author:  laet4x
     Version: 1.0

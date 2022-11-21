@@ -26,7 +26,6 @@ class SearchTempMobile(Module):
     list_number = "/db/mobile.txt"
     
     def _fetch(self):
-        # print("Fetching DB...")
         pass
     
     def run(self):
